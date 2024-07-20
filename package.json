@@ -1,0 +1,19 @@
+{
+  "name": "iti-node-tasks",
+  "version": "1.0.0",
+  "description": "my solution for node js tasks course",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eldiaby/node-project-iti-.git"
+  },
+  "author": "eldiaby",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eldiaby/node-project-iti-/issues"
+  },
+  "homepage": "https://github.com/eldiaby/node-project-iti-#readme"
+}
