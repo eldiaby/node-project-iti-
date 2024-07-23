@@ -3,13 +3,14 @@ let users = [{name:'diab', age:27, id:1}, {name:'hossny', age:63, id:2}, {name:'
 
 
 import exprees from "express";
-import userRoutes from "./src/modules/users.roures.js";
+import userRoutes from "./src/modules/user.routes.js";
+import postsRoutes from "./src/posts/posts.routes.js";
 
 const app = exprees();
-app.listen(3000);
 app.use(exprees.json)
 app.use(userRoutes)
-
+app.use(postsRoutes)
+app.listen(3000);
 
 
 

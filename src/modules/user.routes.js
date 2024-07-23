@@ -21,4 +21,4 @@ userRoutes.delete('/user:idValue', deleteUser)
 //update method
 userRoutes.put('/user:id', update);
 
-export default userRoutes
+export default userRoutes;
