@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "my solution for node js tasks course",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/eldiaby/node-project-iti-/issues"
   },
-  "homepage": "https://github.com/eldiaby/node-project-iti-#readme"
+  "homepage": "https://github.com/eldiaby/node-project-iti-#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "nodemon": "^3.1.4"
+  }
 }
